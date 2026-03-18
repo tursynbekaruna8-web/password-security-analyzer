@@ -7,7 +7,7 @@ https://password-security-analyzer-pxvd.onrender.com/
 
 ## 📸 Screenshot
 
-![App Screenshot](screenshots/main.png)
+![App Screenshot](screen.png)
 
 
 ## 🚀 Features
