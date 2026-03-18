@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Analyzer</title>
+</head>
+<body style="font-family: Arial; text-align:center; margin-top:100px;">
+
+    <h1>🔐 Password Security Analyzer</h1>
+
+    <form method="post">
+        <input type="text" name="password" placeholder="Enter password" value="{{ password }}">
+        <br><br>
+        <button type="submit">Check</button>
+    </form>
+
+    {% if result %}
+        <h2>{{ result }}</h2>
+    {% endif %}
+
+</body>
+</html>
